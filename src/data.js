@@ -1,52 +1,74 @@
-const zodiacSigns = [
+export const zodiac = [
   {
-    name: 'Aquarius',
-    dates: 'Jan 20- Feb 18'
+    id: '1',
+    name: 'aquarius',
+    dates: 'Jan 21 - Feb 19',
+    symbol: 'Water Bearer',
   },
   {
-    name: 'Pisces',
-    dates: 'Feb 19 - Mar 20'
+    id: '2',
+    name: 'aries',
+    dates: 'Mar 21 - Apr 19',
+    symbol: 'Ram',
   },
   {
-    name: 'Aries',
-    dates: 'Mar 21 - Apr 19'
+    id: '3',
+    name: 'cancer',
+    dates: 'Jun 21 - Jul 22',
+    symbol: 'Crab',
   },
   {
-    name: 'Taurus',
-    dates: 'Apr 20 - May 20'
+    id: '4',
+    name: 'capricorn',
+    dates: 'Dec 22 - Feb 19',
+    symbol: 'Goat',
   },
   {
-    name: 'Gemini',
-    dates: 'May 21 - Jun 20'
+    id: '5',
+    name: 'gemini',
+    dates: 'May 21 - Jun 20',
+    symbol: 'Twins',
   },
   {
-    name: 'Cancer',
-    dates: 'Jun 21 - Jul 22'
+    id: '6',
+    name: 'leo',
+    dates: 'Jul 23 - Aug 22',
+    symbol: 'Lion',
   },
   {
-    name: 'Leo',
-    dates: 'Jul 23 - Aug 22'
+    id: '7',
+    name: 'libra',
+    dates: 'Sept 23 - Oct 22',
+    symbol: 'Balance',
   },
   {
-    name: 'Virgo',
-    dates: 'Aug 23 - Sep 22'
+    id: '8',
+    name: 'pisces',
+    dates: 'Feb 19 - Mar 20',
+    symbol: 'Fish',
   },
   {
-    name: 'Libra',
-    dates: 'Sept 23 - Oct 22'
+    id: '9',
+    name: 'sagittarius',
+    dates: 'Nov 22 - Dec 21',
+    symbol: 'Archer',
   },
   {
-    name: 'Scorpio',
-    dates: 'Oct 23 - Nov 21'
+    id: '10',
+    name: 'scorpio',
+    dates: 'Oct 23 - Nov 21',
+    symbol: 'Scorpion',
   },
   {
-    name: 'Sagittarius',
-    dates: 'Nov 22 - Dec 21'
+    id: '11',
+    name: 'taurus',
+    dates: 'Apr 20 - May 20',
+    symbol: 'Bull',
   },
   {
-    name: 'Capricorn',
-    dates: 'Dec 22 - Jan 19'
+    id: '12',
+    name: 'virgo',
+    dates: 'Aug 23 - Sep 22',
+    symbol: 'Virgin',
   },
 ];
-
-export default zodiacSigns;
