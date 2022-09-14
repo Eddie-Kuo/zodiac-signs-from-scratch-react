@@ -3,7 +3,7 @@ header {
     font-weight: bolder;
     font-size: 1.5rem;
     height: 70px;
-    background-color: rgb(234, 123, 123);
+    background-color: lightcyan;
     display: flex;
     align-items: center;
     padding-left: 40px;

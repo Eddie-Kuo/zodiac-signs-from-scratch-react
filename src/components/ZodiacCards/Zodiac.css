@@ -1,8 +1,15 @@
 .zodiac {
     border: 1px solid black;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: bold;
+    background-color: rgb(109, 244, 199);
+    opacity: .9;
+}
+
+.zodiac img {
+    width: 50px;
 }

@@ -1,4 +1,4 @@
-export const zodiac = [
+const zodiac = [
   {
     id: '1',
     name: 'aquarius',
@@ -72,3 +72,5 @@ export const zodiac = [
     symbol: 'Virgin',
   },
 ];
+
+export default zodiac;

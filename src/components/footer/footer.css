@@ -3,11 +3,11 @@ footer {
     height: 70px;
     font-weight: bolder;
     font-size: 1.5rem;
-    background-color: rgb(234, 123, 123);
+    background-color: lightcyan;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     position: fixed;
     width: 100%;
-    bottom: 0;
+    /* bottom: 0; */
 }
