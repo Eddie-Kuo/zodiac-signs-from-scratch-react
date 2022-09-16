@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <main style={{ backgroundImage: `url(${horoscope})` }}>
       {zodiac.map((zodiac) => (
-        <Zodiac key={zodiac.id} zodiac={zodiac} />
+        <Zodiac key={zodiac.id} dataOfOneZodiac={zodiac} />
       ))}
     </main>
   );
